@@ -1,0 +1,124 @@
+.calculator-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'screen screen screen screen'
+    'btn-reset btn-change btn-percent btn-divide'
+    'btn-7 btn-8 btn-9 btn-multiply'
+    'btn-4 btn-5 btn-6 btn-subtract'
+    'btn-1 btn-2 btn-3 btn-add'
+    'btn-0 btn-0 btn-dot btn-equal';
+  background: #d6d6d6;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.calculator-container > button {
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.screen {
+  grid-area: screen;
+  background: #858694;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.screen > div {
+  text-align: right;
+  width: 100%;
+  padding: 20px;
+}
+
+.btn-reset {
+  grid-area: btn-reset;
+}
+
+.btn-change {
+  grid-area: btn-change;
+}
+
+.btn-0 {
+  grid-area: btn-0;
+}
+
+.btn-dot {
+  grid-area: btn-dot;
+}
+
+.btn-equal {
+  grid-area: btn-equal;
+}
+
+.btn-add {
+  grid-area: btn-add;
+}
+
+.btn-subtract {
+  grid-area: btn-subtract;
+}
+
+.btn-multiply {
+  grid-area: btn-multiply;
+}
+
+.btn-divide {
+  grid-area: btn-divide;
+}
+
+.btn-percent {
+  grid-area: btn-percent;
+}
+
+.btn-1 {
+  grid-area: btn-1;
+}
+
+.btn-2 {
+  grid-area: btn-2;
+}
+
+.btn-3 {
+  grid-area: btn-3;
+}
+
+.btn-4 {
+  grid-area: btn-4;
+}
+
+.btn-5 {
+  grid-area: btn-5;
+}
+
+.btn-6 {
+  grid-area: btn-6;
+}
+
+.btn-7 {
+  grid-area: btn-7;
+}
+
+.btn-8 {
+  grid-area: btn-8;
+}
+
+.btn-9 {
+  grid-area: btn-9;
+}
+
+.orange {
+  background: #f5913e;
+}
+
+.light-gray {
+  background: #e0e0e0;
+}
