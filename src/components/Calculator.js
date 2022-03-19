@@ -21,9 +21,20 @@ class Calculator extends React.Component {
     const buttonName = event.target.innerHTML;
     const { data } = this.state;
     const objData = calculate(data, buttonName);
+    let screenUpdate;
+    console.log(objData);
+    const nullCheck = objData.next === null && objData.total === null && objData.operation === null;
+    function updateScreen() {
+      if (nullCheck || !Object.keys(objData).length) {
+        screenUpdate = '0';
+      } else if (!objData.next) {
+        screenUpdate = objData.total;
+      } else screenUpdate = objData.next;
+    }
+    updateScreen();
     this.setState({
       data: { ...data, ...objData },
-      screen: !objData.next ? objData.total : objData.next,
+      screen: screenUpdate,
     });
   }
 
