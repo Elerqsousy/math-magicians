@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Calculator from '../components/Calculator';
 import renderer from 'react-test-renderer';
+import Calculator from '../components/Calculator';
 import '@testing-library/jest-dom/extend-expect';
 
 test('screen to reflect btn keys', () => {

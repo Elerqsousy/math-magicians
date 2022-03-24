@@ -12,7 +12,6 @@ test('navbar to have active links', () => {
   ).not.toBeNull;
 });
 
-
 it('Match the Quote component snapshot', () => {
   const tree = renderer.create(<QuotePage />).toJSON();
   expect(tree).toMatchSnapshot();

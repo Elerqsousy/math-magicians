@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import CalculatorPage from '../pages/CalculatorPage';
-import renderer from 'react-test-renderer'
 /* eslint-disable no-unused-expressions */
 
 test('navbar to have active links', () => {

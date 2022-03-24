@@ -13,4 +13,3 @@ it('Match the Home component snapshot', () => {
 
   expect(tree).toMatchSnapshot();
 });
-

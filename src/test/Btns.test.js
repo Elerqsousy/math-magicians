@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import Btns from '../components/Btns';
 import renderer from 'react-test-renderer';
-
+import Btns from '../components/Btns';
 
 test('btn AC to be renders when btns component renders', () => {
   render(<Btns />);
