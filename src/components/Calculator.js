@@ -32,7 +32,7 @@ const Calculator = () => {
   return (
     <div className="calculator-container">
       <div className="screen">
-        <div>{screen}</div>
+        <div data-testid="screen">{screen}</div>
       </div>
       <Btns handleClick={handleClick} />
     </div>
