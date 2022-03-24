@@ -1,13 +1,12 @@
-import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
-import Calculator from '../components/Calculator'
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import Calculator from '../components/Calculator';
 import '@testing-library/jest-dom/extend-expect';
 
 test('screen to reflect btn keys', () => {
-  render(<Calculator />)
-  userEvent.click(screen.getByRole('button', {name: /3/i}))
-  userEvent.click(screen.getByRole('button', {name: /2/i}))
+  render(<Calculator />);
+  userEvent.click(screen.getByRole('button', { name: /3/i }));
+  userEvent.click(screen.getByRole('button', { name: /2/i }));
 
-  expect(screen.getByTestId('screen')).toHaveTextContent("32")
-}
-  )
+  expect(screen.getByTestId('screen')).toHaveTextContent('32');
+});

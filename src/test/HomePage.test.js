@@ -1,7 +1,8 @@
-import { render, screen } from '@testing-library/react'
-import HomePgae from '../pages/HomePage'
+import { render, screen } from '@testing-library/react';
+import HomePgae from '../pages/HomePage';
+/* eslint-disable no-unused-expressions */
 
 test('navbar to have active links', () => {
-  render(<HomePgae />)
-  expect(screen.getByRole('heading', {name: /Welcome to our page!/i})).not.toBeNull
-})
+  render(<HomePgae />);
+  expect(screen.getByRole('heading', { name: /Welcome to our page!/i })).not.toBeNull;
+});
