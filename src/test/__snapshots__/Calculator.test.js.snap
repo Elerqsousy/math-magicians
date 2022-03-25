@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Match the Calculator component snapshot 1`] = `
+<div
+  className="calculator-container"
+>
+  <div
+    className="screen"
+  >
+    <div
+      data-testid="screen"
+    >
+      0
+    </div>
+  </div>
+  <button
+    className="btn-reset light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="btn-change light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="btn-0 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="btn-dot light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="btn-equal orange"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    =
+  </button>
+  <button
+    className="btn-add orange"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="btn-subtract orange"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="btn-multiply orange"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="btn-divide orange"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="btn-percent light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="btn-1 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="btn-2 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="btn-3 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="btn-4 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="btn-5 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="btn-6 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="btn-7 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="btn-8 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="btn-9 light-gray"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+  >
+    9
+  </button>
+</div>
+`;
