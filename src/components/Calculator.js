@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Btns from './Btns';
-import './calculator.css';
 
 // calculate(obj, buttonName)
 
