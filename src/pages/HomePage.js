@@ -1,8 +1,8 @@
 import React from 'react';
 
 const HomePgae = () => (
-  <div>
-    <h2>Welcome to our page!</h2>
+  <div className="pageContainer">
+    <h2>Welcome to out page!</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
       recusandae unde at explicabo nobis ad ipsa totam quidem, natus, corporis
