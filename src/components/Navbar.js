@@ -6,17 +6,17 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      path: '/math-magicians/',
+      path: '/',
       text: 'Home',
     },
     {
       id: 2,
-      path: '/math-magicians/calculator',
+      path: '/calculator',
       text: 'Calculator',
     },
     {
       id: 3,
-      path: '/math-magicians/quote',
+      path: '/quote',
       text: 'Quote',
     },
   ];

@@ -9,9 +9,9 @@ const App = () => (
   <>
     <Navbar />
     <Routes>
-      <Route path="/math-magicians/" element={<HomePgae />} />
-      <Route path="/math-magicians/calculator" element={<CalculatorPage />} />
-      <Route path="/math-magicians/quote" element={<QuotePage />} />
+      <Route path="/" element={<HomePgae />} />
+      <Route path="/calculator" element={<CalculatorPage />} />
+      <Route path="/quote" element={<QuotePage />} />
     </Routes>
   </>
 );
