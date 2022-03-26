@@ -2,7 +2,7 @@
 
 # Math MAgicians
 
-This is a SPA for a caluculator.
+This is a simple SPA for a caluculator. It consists of 3 pages; Home: with an intro about the app, Calculator: were users can have access to a fully fledged calculator and a Quote.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Screensot
@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - React
 - css
-- JS
+- ESMA-5 JS
 
 ## Live Demo
 
