@@ -30,6 +30,7 @@ const HomePgae = () => (
       facilis debitis iure quisquam animi impedit maiores minus amet expedita!
     </p>
   </div>
+
 );
 
 export default HomePgae;
