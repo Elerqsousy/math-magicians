@@ -1,8 +1,9 @@
 .calculator-container {
+  margin-top: 20px;
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px;
-  gap: 5px 5px;
+  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: 90px 60px 60px 60px 60px 60px;
+  gap: 3px 3px;
   grid-auto-flow: row;
   grid-template-areas:
     'screen screen screen screen'
@@ -11,9 +12,9 @@
     'btn-4 btn-5 btn-6 btn-subtract'
     'btn-1 btn-2 btn-3 btn-add'
     'btn-0 btn-0 btn-dot btn-equal';
-  background: #d6d6d6;
+  background: #242582;
   width: fit-content;
-  padding: 5px;
+  padding: 8px;
   border-radius: 10px;
 }
 
@@ -25,12 +26,14 @@
 
 .screen {
   grid-area: screen;
-  background: #858694;
-  color: white;
+  background: white;
+  color: #2f2fa2;
   display: flex;
   align-items: center;
-  font-size: 30px;
+  font-size: 18px;
   border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .screen > div {
@@ -116,9 +119,27 @@
 }
 
 .orange {
-  background: #f5913e;
+  background: #f64c72;
+  color: white;
 }
 
 .light-gray {
-  background: #e0e0e0;
+  background: #99738e;
+  color: white;
+}
+
+.orange:hover {
+  background: #fc5f81;
+}
+
+.light-gray:hover {
+  background: #a08398;
+}
+
+.orange:checked {
+  background: #ff3c66;
+}
+
+.light-gray:focus {
+  background: #a06a91;
 }

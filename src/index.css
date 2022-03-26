@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212041;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  padding: 8px 140px;
+  justify-content: space-between;
+  background-color: #2f2fa2;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navHeader {
+  color: #f64c72;
+  font-size: 30px;
+  width: 180px;
+  margin: 0;
+}
+
+.navLink {
+  margin-left: 40px;
+}
+
+.navLink a {
+  color: white;
+  text-decoration: none;
+}
+
+.navLink a:hover {
+  text-decoration: underline;
+}
+
+.navLink a.active {
+  color: #f64c72;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.pageContainer {
+  padding: 30px 100px;
+  color: white;
+}
+
+.calculatorPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quotePage {
+  display: flex;
+
+  /* flex-direction: column; */
+  align-items: center;
+  height: 60vh;
+}
